@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/section-bg.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+    font-size: x-small;
+    /* overflow: hidden; */
+}
+
+.user {
+    background-color: rgba(98, 27, 221, 0.38);
+    padding-top: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+ select {
+    width: 107%;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin-top: 10px;
+} 
+
+textarea {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    width: 80%;
+    padding: 15px 50px;
+    background-color: rgba(4, 0, 23, 0.849);
+    border-radius: 3px;
+}
+
+button {
+    width: 107%;
+    background-color: rgb(18, 184, 18);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid rgb(18, 184, 18);
+    border-radius: 2px;
+    padding: 5px 10px;
+}

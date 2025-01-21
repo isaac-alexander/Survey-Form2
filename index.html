@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="user">
+        <h1>Survey Form</h1>
+        <p>Thank you for taking the tie to help us improve the platform</p>
+        <div class="main">
+            <form action="#">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+                <label for="age">Age (optional)</label><br>
+                <input type="number" id="age" placeholder="Age"><br><br>
+                <label for="role">Which option best describes your current role?</label><br>
+                <select name="role" id="role">
+                    <option value="select" selected>Select current role</option>
+                    <option value="human">Human</option>
+                    <option value="bot">Bot</option>
+                </select><br><br>
+                <label for="recommendation">Would you recommend our website to a friend?</label><br>
+                <input type="radio" id="definitely" name="definitely" value="Definitely" checked="checked">
+                <label for="definitely">Definitely</label><br>
+                <input type="radio" id="maybe" name="maybe" value="Maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" id="not-sure" name="not-sure" value="Not-sure">
+                <label for="not-sure">Not sure</label> <br><br>
+                <label for="features">What is your favorite feature of our website?</label><br>
+                <select name="feature" id="feature">
+                    <option value="select" selected>Select an option</option>
+                    <option value="nothing">Nothing</option>
+                    <option value="something">Something</option>
+                </select><br><br>
+                <label for="checkbox">What would you like to see improved? (Check all that apply)</label><br>
+                <input type="checkbox"><label for="#">Front-end Projects</label><br>
+                <input type="checkbox"><label for="#">Back-end Projects</label><br>
+                <input type="checkbox"><label for="#">Data Visualization</label><br>
+                <input type="checkbox"><label for="#">Challanges</label><br>
+                <input type="checkbox"><label for="#">Open Source Community</label><br>
+                <input type="checkbox"><label for="#">Gitter help rooms</label><br>
+                <input type="checkbox"><label for="#">Videos</label><br>
+                <input type="checkbox"><label for="#">City Meetups</label><br>
+                <input type="checkbox"><label for="#">Wiki</label><br>
+                <input type="checkbox"><label for="#">Forum</label><br>
+                <input type="checkbox"><label for="#">Additional Courses</label> <br><br>
+                <label for="comment">Any comments ot suggestions?</label><br> <br>
+                <textarea name="comment" placeholder="Enter your comment here..."></textarea><br><br>
+                <button type="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
